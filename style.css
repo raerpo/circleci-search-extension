@@ -1,0 +1,56 @@
+:root {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Avenir', 'Avenir Next';
+    color: #333;
+    width: 400px;
+    height: 400px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: .5em;
+}
+
+.title__container {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.go-back__button {
+    border: 1px solid tomato;
+    font-size: .8rem;
+    padding: .2em 1em;
+    cursor: pointer;
+}
+
+.title {
+    margin: 0px;
+    margin-bottom: .5em;
+}
+
+.subtitle {
+    margin: 0px;
+}
+
+.search {
+    padding: .5em;
+    width: 100%;
+    font-size: 1rem;
+}
+
+.branches__container, .projects__container {
+    padding-left: 1em;
+}
+
+.projects__container li {
+    cursor: pointer;
+    text-decoration: underline;
+}

@@ -1,0 +1,20 @@
+{
+  "name": "circleci-search",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Rafael Poveda",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.46",
+    "@types/react-dom": "^16.9.8",
+    "parcel": "^1.12.4"
+  },
+  "scripts": {
+    "dev": "parcel src/*.js",
+    "build": "parcel build src/*.js"
+  }
+}

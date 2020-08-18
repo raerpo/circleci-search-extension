@@ -1,0 +1,22 @@
+{
+    "name": "CircleCI Search",
+    "version": "1.2",
+    "manifest_version": 2,
+    "author": "Rafael Poveda",
+    "description": "A better branch search for CircleCI",
+    "homepage_url": "https://github.com/raerpo/circleCI-search",
+    "icons": {
+      "48": "favicon.png",
+      "128": "favicon.png"
+    },
+    "browser_action": {
+      "default_icon": {
+        "48": "favicon.png",
+        "128": "favicon.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "CircleCI Search"
+    },
+    "permissions": ["webRequest", "webRequestBlocking", "https://*/*?*", "http://*/*?*"]
+  }
+  
